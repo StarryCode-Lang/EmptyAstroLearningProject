@@ -1,6 +1,6 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -9,13 +9,16 @@ import Layout from '../layouts/Layout.astro';
 <html lang="zh-cn">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type ="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content = {Astro.generator} >
+    <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
   <body>
+    <a href="/">首页</a>
+    <a href="/about/">关于</a>
+    <a href="/blog/">博客</a>
     <h1>Astro</h1>
-	<h1>Robert 的 Astro 站点</h1>
+    <h1>Robert 的 Astro 站点</h1>
   </body>
 </html>
